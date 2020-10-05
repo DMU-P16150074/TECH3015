@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="./images/minilogo.ico" />
+	<title>Videos</title>
+</head>
+
+<body>
+	<div class="menu" id="menu-toggle">MENU</div>
+	<nav id="menu-nav">
+		<img id="minilogo" src="./images/minilogo.png" alt="minilogo"> <a href="home.html">HOME</a>
+		<a href="videos.html" class="active1">VIDEOS</a>
+		<a href="wardrobe.html">WARDROBE</a>
+		<a href="about.html">ABOUT</a>
+		<div class="dropdown">
+			<a href="blogs.html">
+				<button id="blogs" class="dropbtn">BLOGS <i class="fa fa-caret-down"></i>
+				</button>
+			</a>
+			<div class="dropdown-content"> <a href="travel.html">TRAVEL</a>
+				<a href="fashion.html">FASHION</a>
+			</div>
+		</div>
+	</nav>
+	<div class="logo">
+		<img id="logo" src="./images/Logo.png" alt="mainlogo">
+	</div>
+	<div class="sticky">
+		<div class="socialflex">
+			<a class="zoom" href="https://css-tricks.com/scrollfollow-sidebar/" target="_blank">
+				<img id="facebook" src="./images/facebook.png" alt="facebook">
+			</a>
+			<a class="zoom" href="https://www.instagram.com/amberjade_/" target="_blank">
+				<img id="insta" src="./images/insta.png" alt="insta">
+			</a>
+			<a class="zoom" href="https://twitter.com/amberjadea" target="_blank">
+				<img id="twitter" src="./images/twitter.png" alt="twitter">
+			</a>
+			<a class="zoom" href="https://www.youtube.com/user/AmberJade190533/videos?disable_polymer=1" target="_blank">
+				<img id="youtube" src="./images/youtube.png" alt="youtube">
+			</a>
+		</div>
+	</div>
+	<section class="top1">
+		<div class="bottom">
+			<img src="./images/paint.png" class="paint" alt="paint">
+		</div>
+		<div class="top">
+			<p class="mainhead">VIDEOS</P>
+		</div>
+	</section>
+	<div id="mainvid">
+		<p class="title">Newest Video</p>
+		<p class="title">A day in the life of a student | Episode 1</p>
+		<video controls poster="./images/vlog1.png" id="trailer">
+			<source src="./videos/vlog1.mp4" type="video/mp4">
+				<source src="./videos/vlog1.webm" type="video/webm">
+					<source src="./videos/vlog1.ogv" type="video/ogg">Your browser does not support the video tag.</video>
+		<p id="text">Today I felt very productive and had quite a few things planned! I decided to try blogging for the first time, and this is how it went! Follow me going to uni, sunbeds, and the gym and see what I got up to.</p>
+	</div>
+	<p id="previous">Previous Videos:</p>
+	<article class="videoflex">
+		<div class="previousvid">
+			<video controls poster="./images/tenerife.jpg" class="trailer">
+				<source src="./videos/ten.mp4" type="video/mp4">
+					<source src="./videos/ten.webm" type="video/webm">
+						<source src="./videos/ten.ogv" type="video/ogg">Your browser does not support the video tag.</video>
+			<p class="text2">Follow me round the beautiful Island of Tenerife! This was my christmas present this year from my amazing boyfriend, have a look what we got up to.</p>
+		</div>
+		<div class="previousvid">
+			<video controls poster="./images/primark.png" class="trailer">
+				<source src="./videos/clothing.mp4" type="video/mp4">
+					<source src="./videos/clothing.webm" type="video/webm">
+						<source src="./videos/clothing.ogv" type="video/ogg">Your browser does not support the video tag.</video>
+			<p class="text2">My favourite type of video, A Primark Haul!! with gym season approaching, I found all of the best work out gear and this is what I got!</p>
+		</div>
+		<div class="previousvid">
+			<video controls poster="./images/summer.jpg" class="trailer">
+				<source src="./videos/summer.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+			<p class="text2">Want to know what I'm wearing this summer? Watch this video and find out, I show you all my fave pieces ready for summer</p>
+		</div>
+	</article>
+	<footer>
+		<div class="footerbot">
+			<div id="copyright">
+				<p class="copyright">Amber Jade Abbott © Copyright</p>
+			</div>
+			<div class="bottomnav"> <a href="home.html">HOME</a>
+				<a href="blogs.html">BLOGS</a>
+				<a href="videos.html">VIDEOS</a>
+				<a href="wardrobe.html">WARDROBE</a>
+				<a href="about.html">ABOUT</a>
+			</div>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
